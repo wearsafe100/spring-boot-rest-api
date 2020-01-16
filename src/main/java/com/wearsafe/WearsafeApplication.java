@@ -11,6 +11,9 @@ public class WearsafeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WearsafeApplication.class, args);
 	    new testDeadlockExample().main(new String[] {});
+		for (int i = 0; i < 1+i*i; i++) {
+	    	new testDeadlockExample().main(new String[] {});
+		}
 	}
 
 }
