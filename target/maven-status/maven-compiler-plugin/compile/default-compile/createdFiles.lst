@@ -1,0 +1,15 @@
+com\wearsafe\web\exception\RecordNotFoundException.class
+com\wearsafe\service\PersonService.class
+com\wearsafe\dao\repository\PersonRepository.class
+com\wearsafe\dao\entity\PersonEntity.class
+com\wearsafe\helper\Utils.class
+com\wearsafe\web\controller\vo\AddressVO.class
+com\wearsafe\service\impl\PersonServiceImpl.class
+com\wearsafe\WearsafeApplication.class
+com\wearsafe\dao\entity\AddressEntity.class
+com\wearsafe\web\controller\mapper\PersonMapper.class
+com\wearsafe\dao\repository\AddressRepository.class
+com\wearsafe\helper\Utils$MODE.class
+com\wearsafe\service\AddressService.class
+com\wearsafe\web\controller\PersonController.class
+com\wearsafe\web\controller\vo\PersonVO.class
