@@ -8,6 +8,7 @@ public class WearsafeApplication {
 
 	public static void main(String[] args) {
 
+
 	
         SpringApplication.run(WearsafeApplication.class, args);
 	    new testDeadlockExample().main(new String[] {});
@@ -17,6 +18,7 @@ public class WearsafeApplication {
 				System.out.println("infinte loop");
 			}
 	    }
+
 
 	}
 
