@@ -13,6 +13,9 @@ public class WearsafeApplication {
 	    new testDeadlockExample().main(new String[] {});
         while(true) {
 	       System.out.printf("Helll Hello %s", "Hello");	
+	       for (int i = 0; i < i+i+1; i++) {
+				System.out.println("infinte loop");
+			}
 	    }
 	}
 
