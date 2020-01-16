@@ -8,6 +8,7 @@ public class WearsafeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WearsafeApplication.class, args);
+		new deadlock().main(new String[] {"Nagendra"});
 	}
 
 }
