@@ -17,15 +17,15 @@ public class jdbcdemo {
             stmt.execute("INSERT INTO EMPLOYEE (ID,FIRST_NAME,LAST_NAME,STAT_CD) "
                                 + "VALUES (1,'Lokesh','Gupta',5)");
         } 
-        catch (Exception e) {
-            e.printStackTrace();
-        }finally {
-            try {
-              //  stmt.close();
-               // connection.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+//         catch (Exception e) {
+//             e.printStackTrace();
+//         }finally {
+//             try {
+//               //  stmt.close();
+//                // connection.close();
+//             } catch (Exception e) {
+//                 e.printStackTrace();
+//             }
         }
     }
 }
