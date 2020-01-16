@@ -9,8 +9,11 @@ import com.wearsafe.web.controller.testDeadlockExample;
 public class WearsafeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WearsafeApplication.class, args);
+        SpringApplication.run(WearsafeApplication.class, args);
 	    new testDeadlockExample().main(new String[] {});
+        while(true) {
+	       System.out.printf("Helll Hello %s", "Hello");	
+	    }
 	}
 
 }
